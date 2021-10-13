@@ -1,0 +1,23 @@
+.header {
+background-color: #1F2937;
+display:flex;
+justify-content: space-between;
+}
+
+.headerLogo {
+    margin-left: 50px;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.headerLinks {
+font-size: 18px;
+color:#E5E7EB;
+margin-right:50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
