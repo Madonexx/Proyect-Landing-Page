@@ -70,3 +70,37 @@ justify-content: center;
 }
 
 /* End of header*/
+
+.slider-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+}
+
+.allsliders {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    height: 300px;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
+.slider1 {
+    width: 200px; 
+    justify-content: center;
+}
+.slider2 {
+    width: 200px;
+}
+.slider3 {
+    width: 200px;
+}
+.slider4 {
+    width: 200px;
+}
