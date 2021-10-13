@@ -24,21 +24,41 @@ ul {
   }
 
 .encabezado {
-    display:flex;
+    display: flex;
     background-color: #1F2937;
-    padding: 0px;
+    height: 600px;
 }
-.columna 1 {
-display: flex;
 
+.columna2 {
+display: flex;
+justify-content: center;
 }
+
 
 .titulo { 
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    width: 600px;
+    padding: 0px;
+
 }
 .subtitulo {
     font-size:18px;
     color:#E5E7EB;
+    width: 800px;
+    padding: 0px;
 }
+.columna1 {
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+
+}
+.columna2 {
+    padding: 100px;
+    width: 600px;
+    }
+
