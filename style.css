@@ -5,7 +5,7 @@ justify-content: space-between;
 }
 
 .headerLogo {
-    margin-left: 50px;
+    margin-left: 350px;
     font-size: 24px;
     color:#F9FAF8;
 }
@@ -23,6 +23,8 @@ ul {
     gap: 20px;
   }
 
+/* End of first navbar*/
+
 .encabezado {
     display: flex;
     background-color: #1F2937;
@@ -37,28 +39,34 @@ justify-content: center;
 
 .titulo { 
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
     width: 600px;
-    padding: 0px;
-
+    height: 220px;
 }
 .subtitulo {
     font-size:18px;
     color:#E5E7EB;
-    width: 800px;
-    padding: 0px;
+    width: 510px;
 }
 .columna1 {
     margin-left: 350px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 200px;
-
 }
 .columna2 {
     padding: 100px;
     width: 600px;
-    }
+}
+.signupbutton {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 8px;
+}
 
+/* End of header*/
